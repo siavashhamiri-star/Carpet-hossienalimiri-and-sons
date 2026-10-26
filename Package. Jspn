@@ -1,0 +1,41 @@
+import Head from 'next/head'
+
+export default function CarpetShop() {
+  return (
+    <div style={{ fontFamily: 'system-ui, sans-serif', padding: '2rem', maxWidth: '800px', margin: '0 auto', direction: 'rtl', textAlign: 'right', lineHeight: '1.8', backgroundColor: '#faf9f6', color: '#2c2c2c', minHeight: '100vh' }}>
+      <Head>
+        <title>فرش حسین‌علی میری و پسران | اصالت، هنر و تجارت فرش</title>
+        <meta name="description" content="نمایشگاه و دفتر تجارت فرش دستباف، یادگار حاج حسین‌علی میری" />
+      </Head>
+
+      <header style={{ borderBottom: '2px solid #d4af37', paddingBottom: '1.5rem', marginBottom: '2rem', textAlign: 'center' }}>
+        <h1 style={{ color: '#5a189a', fontSize: '2.2rem', marginBottom: '0.5rem' }}>فرش حسین‌علی میری و پسران</h1>
+        <p style={{ color: '#555', fontSize: '1.2rem', margin: 0, fontWeight: '500' }}>
+          اصالت، هنر و تداوم یک نام نیک در صنعت فرش دستباف
+        </p>
+      </header>
+
+      <main>
+        <section style={{ marginBottom: '2.5rem', background: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.05)' }}>
+          <h2 style={{ color: '#333', fontSize: '1.4rem', borderRight: '4px solid #d4af37', paddingRight: '10px' }}>درباره مجموعه</h2>
+          <p style={{ fontSize: '1.05rem', color: '#444' }}>
+            این پایگاه به پاسِ یاد و نامِ گرانقدرِ حاج حسین‌علی میری و در ادامه مسیرِ اصیلِ ایشان در تجارتِ بین‌المللی و داخلیِ فرش دستباف بنیان نهاده شده است. ما اصالتِ هنرِ ایرانی را به خانه‌ها و دستانِ دوستدارانِ زیبایی می‌رسانیم.
+          </p>
+        </section>
+
+        <section style={{ marginBottom: '2.5rem', background: '#fff', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.05)' }}>
+          <h2 style={{ color: '#333', fontSize: '1.4rem', borderRight: '4px solid #d4af37', paddingRight: '10px' }}>اطلاعات تماس و نشانی</h2>
+          <ul style={{ listStyleType: 'none', padding: 0, fontSize: '1.05rem', color: '#444' }}>
+            <li style={{ marginBottom: '0.8rem' }}>📍 **آدرس:** [لطفاً آدرس دقیق مغازه را اینجا وارد کنید]</li>
+            <li style={{ marginBottom: '0.8rem' }}>📞 **تلفن تماس:** [شماره تماس مجموعه]</li>
+            <li style={{ marginBottom: '0.8rem' }}>✉️ **ایمیل:** info@alimiri-carpets.ir</li>
+          </ul>
+        </section>
+      </main>
+
+      <footer style={{ marginTop: '3rem', paddingTop: '1rem', borderTop: '1px solid #ddd', textAlign: 'center', color: '#777', fontSize: '0.9rem' }}>
+        © تمامی حقوق محفوظ است | فرش حسین‌علی میری و پسران
+      </footer>
+    </div>
+  )
+}
